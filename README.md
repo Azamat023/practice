@@ -22,10 +22,10 @@ git pull origin master
 ## Python Foundation:
 
 
--Primitive Variables
--Function
--Object
--Class
--Operation & Conditions
--Loops
+- Primitive Variables
+- Function
+- Object
+- Class
+- Operation & Conditions
+- Loops
 ...
