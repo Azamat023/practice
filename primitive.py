@@ -30,3 +30,19 @@ print(f"the result (4):{result}")
 
 
 print("==== boolen ====")
+# function > type() input() bool() int() str() 
+y = input("Give you value for y:")
+print("y:", y) 
+
+result = y.isnumeric()
+print(f"the input value is numeric: {result}")
+
+# TRUTHY vs FALSY value
+# TRUTHY: True 100 -100 "Mit"
+# FALSY: False 0 "" None
+
+test_falsy = "" or False or None or 0 or 100
+print("The FALSY:", bool(test_falsy))
+
+test_truthy = "MIT"
+print("test_truthy:", bool(test_truthy))
