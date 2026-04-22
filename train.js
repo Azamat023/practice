@@ -1,3 +1,28 @@
+/* C-TASK (NodeJS)
+
+Shunday function tuzing, u 2ta string parametr ega bolsin, hamda agar har ikkala string bir hil harflardan iborat bolsa true aks holda false qaytarsin
+MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true; */
+
+function checkContent(str1, str2) {
+
+  if (str1.length !== str2.length) return false;
+
+  // Harflarni tartiblab solishtiramiz
+  const sorted1 = str1.split('').sort().join('');
+  const sorted2 = str2.split('').sort().join('');
+
+  return sorted1 === sorted2;
+}
+
+// Test
+console.log(checkContent("mitgroup:", "mitgroup")); // true
+console.log(checkContent("hello", "world")); // false
+
+
+
+
+
+
 /* B-TASK (NodeJS)
 
 Shunday function tuzing, u 1ta string parametrga ega bolsin, hamda osha stringda qatnashgan raqamlarni sonini bizga return qilsin.
