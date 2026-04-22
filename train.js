@@ -5,18 +5,17 @@ MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true; */
 
 function checkContent(str1, str2) {
 
-  if (str1.length !== str2.length) return false;
-
-  // Harflarni tartiblab solishtiramiz
-  const sorted1 = str1.split('').sort().join('');
-  const sorted2 = str2.split('').sort().join('');
-
-  return sorted1 === sorted2;
+  const sorted1 = str1.split('')
+  const sorted2 = str2.split('')
+  return sorted1.every((ele) => sorted2.includes(ele)) 
+//console.log(sorted1)
 }
 
 // Test
-console.log(checkContent("mitgroup:", "mitgroup")); // true
-console.log(checkContent("hello", "world")); // false
+console.log(checkContent("Adam", "Adam")); // true
+
+
+
 
 
 
@@ -32,13 +31,13 @@ MASALAN countDigits("ad2a54y79wet0sfgb9") 7ni return qiladi. */
 // ⭐️ Masalaning yechimi
 
 
-function countNums(str) {
-  return str.split("").map(Number).filter(Boolean).length;
-}
+//function countNums(str) {
+  //return str.split("").map(Number).filter(Boolean).length;
+//}
 
 
 
-console.log(countNums("gwefkwgiefgwkb886kdhjk"));
+//console.log(countNums("gwefkwgiefgwkb886kdhjk"));
 
 
 
