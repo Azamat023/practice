@@ -4,6 +4,9 @@
     (3) zip
 '''
 
+from ast import arg
+
+
 print("==== What is tuple: tuple vs list ======")
 #Java/PHP/NodeJS array => Python list
 
@@ -19,8 +22,36 @@ print("before fuits:", fruits)
 fruits[2] = "melon"
 print("after fuits:", fruits)
 
+# we can not mutate tuple
 animals = ("dog", "cat", "fish", "lion")
 tuple_obj = ("MIT", 100, True, None)
 
 print(animals[0])
-animals[0] = "bird"
+# animals[0] = "bird"
+
+#try avoid this
+people = "Andrew", "John"
+animals = "dog",
+
+print("===== Unpacking arguments ======")
+groups = ["MIT", "FLEXY", "DEVEX", "MG"]
+(x, y, *z) = groups
+print(f"the x: {x} and y: {y}")
+print("z:", z) #list
+
+# *args > tuple
+def calculate(*args):
+    print("*args >", args)
+    total = 1
+    for x in args:
+        total *= x 
+    print(f"the total value: {total}")
+    return total
+
+
+# Call
+calculate(1, 7, 2, 3)
+print("-----")
+calculate(0, 2, 300)
+print("-----")
+calculate(5, 7)
