@@ -1,18 +1,29 @@
+function getHighestIndex(arr) {
+  return arr.indexOf(Math.max(...arr));
+}
+
+
+
+
+
+
+
+
 /* C-TASK (NodeJS)
 
 Shunday function tuzing, u 2ta string parametr ega bolsin, hamda agar har ikkala string bir hil harflardan iborat bolsa true aks holda false qaytarsin
 MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true; */
 
-function checkContent(str1, str2) {
+//function checkContent(str1, str2) {
 
-  const sorted1 = str1.split('')
-  const sorted2 = str2.split('')
-  return sorted1.every((ele) => sorted2.includes(ele)) 
+  //const sorted1 = str1.split('')
+  //const sorted2 = str2.split('')
+  //return sorted1.every((ele) => sorted2.includes(ele)) 
 //console.log(sorted1)
-}
+//}
 
 // Test
-console.log(checkContent("Adam", "Adam")); // true
+//console.log(checkContent("Adam", "Adam")); // true
 
 
 
