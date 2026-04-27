@@ -1,8 +1,8 @@
 '''LIST
-(1) Working with lists
-(2) List methods
-(3) Lambda function
-(4) enumarate, map and filter
+    (1) Working with lists
+    (2) List methods
+    (3) Lambda function
+    (4) enumarate, map and filter
 '''
 
 print("=====  Working with lists ======")
