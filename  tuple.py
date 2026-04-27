@@ -81,5 +81,5 @@ tuple2 = ('a', 'b', 'c')
 
 zipped =zip(tuple1, tuple2)
 print("zipped", zipped)
-result = list(zipped)
+result= list(zipped)
 print(f"the result: {result}")
