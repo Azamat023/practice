@@ -1,19 +1,39 @@
-function getHighestIndex(arr) {
-  let max = arr[0];
-  let index = 0;
+/* E-TASK (NodeJS)
 
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > max) {
-      max = arr[i];
-      index = i;
-    }
-  }
+Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
+MASALAN: getReverse("hello") return qilsin "olleh"*/
 
-  return index;
+function getReverse(str) {
+  return str.split('').reverse().join('');
 }
 
+console.log(getReverse("hello")); 
+
+
+
+
+/*D-TASK (NodeJS)
+
+Shunday function tuzingki unga integerlardan iborat array pass bolsin va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
+MASALAN: getHighestIndex([5, 21, 12, 21, 8]) return qiladi 1 sonini.*/
+
+
+//function getHighestIndex(arr) {
+  //let max = arr[0];
+  //let index = 0;
+
+  //for (let i = 1; i < arr.length; i++) {
+  //  if (arr[i] > max) {
+    //  max = arr[i];
+    //  index = i;
+   // }
+ // }
+
+  //return index;
+//}
+
 // Test
-console.log(getHighestIndex([5, 21, 12, 21, 8])); // 1
+//console.log(getHighestIndex([5, 21, 12, 21, 8])); // 1
 
 
 
