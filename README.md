@@ -36,3 +36,15 @@ _ Array
 - Comprehension
 - Debugging
 ...
+
+## Pip cammander:
+```
+  windows pip | macOS pip3
+
+  pip list 
+  pip install pillow
+  pip uninstall pillow
+  pip show pillow
+  pip3 freeze > requirements.txt
+
+```
