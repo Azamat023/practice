@@ -6,11 +6,13 @@
   "scripts": {
     "start": "node advice.js",
     "compute": "node compute.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cap": "nodemon cap.js"
   },
   "author": "Adam",
   "license": "MIT",
   "dependencies": {
     "express": "^5.2.1"
   }
+
 }
