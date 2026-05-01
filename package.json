@@ -5,9 +5,12 @@
   "main": "advice.js",
   "scripts": {
     "start": "node advice.js",
-    "compute":"node compute.js",
+    "compute": "node compute.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adam",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }

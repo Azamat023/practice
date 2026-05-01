@@ -24,7 +24,7 @@ const person1 = new Person("Muza", 25);
 const person2 = new Person("Martin", 33);
 const person3 = new Person("Michel", 11);
 
-
 person1.greet();
 person1. introduce();
-person2.introduce();
+person2.introduce();    
+
